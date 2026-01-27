@@ -1,5 +1,52 @@
-*{
+/*========= Common CSS ============== */
+
+:root {
+    --primary-color: #4F6BD6;
+    --heading-color: #0E0C0A;
+    --primary-black-color: #031B33;
+    --black-dark-color: #0A0A0A;
+    --gray-light-color: #F1FCF9;
+    --white-color: #ffffff;
+    --text-color: #2D4443;
+    --border-color: #E5E5E5;
+
+    --heading-font: "Albert Sans", sans-serif;
+    --body-font: "Rubik", sans-serif;
+}
+
+
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+body {
+    font-family: var(--body-font);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1314px;
+    padding: 0 12px;
+    margin: 0 auto;
+}
+
+
+/*============ Component ============== */
+
+
+/*============ Header ================= */
+
+header {
+    padding: 24px 0;
+    background-color: var(--white-color);
 }
