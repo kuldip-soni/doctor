@@ -40,6 +40,71 @@ li {
     margin: 0 auto;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -12px;
+}
+
+.col-1 {
+    width: 8.33%;
+    padding: 0 12px;
+}
+
+.col-2 {
+    width: 16.66%;
+    padding: 0 12px;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 0 12px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding: 0 12px;
+}
+
+.col-5 {
+    width: 41.66%;
+    padding: 0 12px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 12px;
+}
+
+.col-7 {
+    width: 58.33%;
+    padding: 0 12px;
+}
+
+.col-8 {
+    width: 66.66%;
+    padding: 0 12px;
+}
+
+.col-9 {
+    width: 75%;
+    padding: 0 12px;
+}
+
+.col-10 {
+    width: 83.33%;
+    padding: 0 12px;
+}
+
+.col-11 {
+    width: 91.66%;
+    padding: 0 12px;
+}
+
+.col-12 {
+    width: 100%;
+    padding: 0 12px;
+}
 
 
 
@@ -55,11 +120,30 @@ li {
     line-height: 20px;
     border-radius: 10px;
     transition: all 0.5s;
+    display: inline-block;
 }
 
 
 .btn:hover {
     background-color: var(--primary-black-color);
+}
+
+.badge {
+    font-size: 18px;
+    color: var(--text-color);
+    font-weight: 500;
+    line-height: 24px;
+    font-family: var(--heading-font);
+    padding: 5px 20px;
+    margin-bottom: 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.badge i {
+    margin-right: 2px;
+    color: var(--text-color);
 }
 
 
@@ -156,4 +240,33 @@ header {
     opacity: 0;
     visibility: hidden;
     background-color: var(--white-color);
+}
+
+.hero {
+    background-color: var(--gray-light-color);
+}
+
+.hero-details {
+    padding: 100px 0;
+}
+
+.hero-details h1 {
+    font-size: 85px;
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+    font-weight: 700;
+    line-height: 100px;
+}
+
+.hero-details p {
+    margin-bottom: 50px;
+    color: rgb(45, 68, 67);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+
+.banner-cta a {
+    padding: 15px 44px;
 }
