@@ -242,12 +242,15 @@ header {
     background-color: var(--white-color);
 }
 
+/*================= hero section ========================*/
 .hero {
     background-color: var(--gray-light-color);
+    padding-top: 65px;
 }
 
 .hero-details {
-    padding: 100px 0;
+    padding: 105px 0 0;
+    margin-bottom: 40px;
 }
 
 .hero-details h1 {
@@ -256,17 +259,82 @@ header {
     font-family: var(--heading-font);
     font-weight: 700;
     line-height: 100px;
+    margin-bottom: 12px;
 }
 
-.hero-details p {
-    margin-bottom: 50px;
-    color: rgb(45, 68, 67);
+.hero-details .sub-text {
+    margin-bottom: 30px;
+    color: var(--text-color);
+    line-height: 30px;
     font-size: 18px;
     font-weight: 400;
 
 }
 
+.hero-cta {
+    display: flex;
+}
 
-.banner-cta a {
-    padding: 15px 44px;
+.hero-cta .btn {
+    padding: 20px 75px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.call-us {
+    display: flex;
+    margin-left: 40px;
+}
+
+.call-us .call-text {
+    margin-left: 20px;
+}
+
+.call-us .call-text p {
+    font-size: 18px;
+    color: var(--text-color);
+    line-height: 30px;
+}
+
+.call-us .call-text a {
+    font-size: 20px;
+    color: var(--heading-color);
+    font-weight: 700;
+    font-family: var(--heading-font);
+}
+
+.hero-image {
+    position: relative;
+    margin-left: 50px;
+
+}
+
+.tag1 {
+    position: absolute;
+    top: 15%;
+    border: 1px solid var(--border-color);
+    padding: 12px 30px;
+    color: var(--white-color);
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--heading-font);
+    line-height: 1;
+    background-color: var(--heading-color);
+}
+
+.tag2 {
+    position: absolute;
+    top: 35%;
+    right: -45%;
+    border: 1px solid var(--border-color);
+    padding: 12px 30px;
+    color: var(--white-color);
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--heading-font);
+    line-height: 1;
+    background-color: var(--heading-color);
+
 }
