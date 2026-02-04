@@ -115,7 +115,7 @@ li {
     color: var(--white-color);
     font-size: 18px;
     font-family: var(--heading-font);
-    padding: 13px 21px;
+    padding: 13px 21px ;
     font-weight: 700;
     line-height: 20px;
     border-radius: 10px;
@@ -151,8 +151,8 @@ li {
 /*============ Header ================= */
 
 header {
-    /* background-color: var(--white-color); */
-    background-color: #F8F8F8;
+    background-color: var(--white-color); 
+
 }
 
 .top-header {
@@ -188,7 +188,7 @@ header {
 
 .menu li a i {
     font-size: 16px;
-    /* width: initial; */
+
 }
 
 .menu li .sub-menu {
@@ -273,12 +273,12 @@ header {
 
 .hero-cta {
     display: flex;
+    align-items: center;
+    
 }
 
 .hero-cta .btn {
-    padding: 20px 75px;
-    font-size: 18px;
-    font-weight: 700;
+    padding: 15px 44px ;
 }
 
 .call-us {
