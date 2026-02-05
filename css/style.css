@@ -422,3 +422,131 @@ header {
 .about .btn {
     padding: 15px 44px;
 }
+
+.about-box .box-1 {
+    display: flex;
+    align-items: center;
+    background-color: var(--gray-light-color);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 30px 0 0 30px;
+    max-width: 190px;
+}
+
+.about-box .box-1 .count {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    background-color: var(--primary-color);
+    border-radius: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--heading-font);
+    color: var(--white-color);
+    margin-right: 20px;
+}
+
+.about-box .box-1 h5 {
+    font-size: 18px;
+    color: var(--heading-color);
+    line-height: 28px;
+    font-family: var(--heading-font);
+    flex-grow: 1;
+}
+
+/* ================ Achive ============== */
+.achievement {
+    background-color: var(--primary-color);
+    padding: 80px 0;
+}
+
+.achievement .row {
+    align-items: center;
+}
+
+.achievement .col-3 {
+    border-left: 1px solid var(--white-color);
+}
+
+.achievement .col-3:first-child {
+    border: none;
+}
+
+.appoint .ppl {
+    display: flex;
+}
+
+.appoint .ppl div {
+    margin-left: -10px;
+    margin-bottom: 15px;
+}
+
+.appoint .ppl div:first-child {
+    margin-left: 0;
+}
+
+.appoint .ppl img {
+    border-radius: 50%;
+    border: 2px solid var(--white-color);
+}
+
+.appoint h5 {
+    color: var(--white-color);
+    font-size: 24px;
+    font-family: var(--heading-font);
+    line-height: 34px;
+}
+
+.achiev {
+    padding: 0 12px 0 50px;
+}
+
+.achiev h2 {
+    font-size: 48px;
+    color: var(--white-color);
+    line-height: 65px;
+    font-family: var(--heading-font);
+}
+
+.achiev h5 {
+    font-size: 24px;
+    color: var(--white-color);
+    line-height: 34px;
+    font-family: var(--heading-font);
+}
+
+.about-box .box-2 {
+    align-items: center;
+    background-color: var(--gray-light-color);
+    padding: 30px 20px;
+    border-radius: 10px;
+    margin: 0px 0px 40px;
+    max-width: 300px;
+}
+
+.box-2 .boxlist li {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box-2 h4 {
+
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.box-2 .boxlist .day {
+
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.box-2 .boxlist .time {
+
+    font-size: 18px;
+}
