@@ -115,7 +115,7 @@ li {
     color: var(--white-color);
     font-size: 18px;
     font-family: var(--heading-font);
-    padding: 13px 21px ;
+    padding: 13px 21px;
     font-weight: 700;
     line-height: 20px;
     border-radius: 10px;
@@ -151,7 +151,7 @@ li {
 /*============ Header ================= */
 
 header {
-    background-color: var(--white-color); 
+    background-color: var(--white-color);
 
 }
 
@@ -274,11 +274,11 @@ header {
 .hero-cta {
     display: flex;
     align-items: center;
-    
+
 }
 
 .hero-cta .btn {
-    padding: 15px 44px ;
+    padding: 15px 44px;
 }
 
 .call-us {
@@ -341,77 +341,84 @@ header {
 }
 
 /********************about us************************/
-  
-  
-  .about{
-      padding: 120px 0 130px;
-  }
-  .about-img{
-      padding-right: 100px;
-  }
-  .about-img img{
-      display: block;
-      border-radius: 10px;
-  }
-  
-  .about-data .data{
-      display: flex;
-      align-items: center;
-      margin-bottom: 30px;
-  }
-  .data .data-icon{
-      height: 60px;
-      width: 60px;
-      line-height: 60px;
-      border-radius: 100%;
-      background-color: #e7e0ff;
-      text-align: center;
-      margin-right: 20px;
-  }
-  .data-2 .data-icon{
-      background-color: #ffd0cc;
-  }
-  .data .data-icon i{
-      font-size: 22px;
-      color: transparent;
-      -webkit-text-stroke: 1.5px var(--text-color);
-  }
-  .data .data-txt h3{
-      font-size: 24px;
-      color: var(--heading-color);
-      font-family: var(--heading-font);
-      line-height: 34px;
-  }
-  .data .data-txt p{
-      font-size: 18px;
-      color: var(--text-color);
-      line-height: 30px;
-  }
-  .about .about-cta{
-      display: flex;
-      align-items: center;
-  }
 
-  .heading h2{
-      font-size: 48px;
-      font-weight: 700;
-      font-family: var(--heading-font);
-  }
 
-  .heading{
-      margin-bottom: 25px;
-  }
+.about {
+    padding: 120px 0 130px;
+}
 
-  .about .sub-text{
-     margin-bottom: 30px;
+.about-img {
+    padding-right: 100px;
+}
+
+.about-img img {
+    display: block;
+    border-radius: 10px;
+}
+
+.about-data .data {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.data .data-icon {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 100%;
+    background-color: #e7e0ff;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.data-2 .data-icon {
+    background-color: #ffd0cc;
+}
+
+.data .data-icon i {
+    font-size: 22px;
+    color: transparent;
+    -webkit-text-stroke: 1.5px var(--text-color);
+}
+
+.data .data-txt h3 {
+    font-size: 24px;
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+    line-height: 34px;
+}
+
+.data .data-txt p {
+    font-size: 18px;
+    color: var(--text-color);
+    line-height: 30px;
+}
+
+.about .about-cta {
+    display: flex;
+    align-items: center;
+}
+
+.heading h2 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: var(--heading-font);
+}
+
+.heading {
+    margin-bottom: 25px;
+}
+
+.about .sub-text {
+    margin-bottom: 30px;
     color: var(--text-color);
     line-height: 30px;
     font-size: 18px;
     font-weight: 400;
 
-  }
-
-  .about .btn {
-    padding: 15px 44px ;
 }
 
+.about .btn {
+    padding: 15px 44px;
+}
