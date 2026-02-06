@@ -423,7 +423,12 @@ header {
     padding: 15px 44px;
 }
 
+.about-box {
+    position: relative;
+}
+
 .about-box .box-1 {
+    position: absolute;
     display: flex;
     align-items: center;
     background-color: var(--gray-light-color);
@@ -456,6 +461,58 @@ header {
     font-family: var(--heading-font);
     flex-grow: 1;
 }
+
+.about-box .box-2 {
+    position: absolute;
+    right: 80px;
+    top: -145px;
+    align-items: center;
+    background-color: var(--gray-light-color);
+    padding: 30px 20px;
+    border: 1px solid #E1EBE8;
+    border-radius: 10px;
+    margin: 0px 0px 40px;
+    max-width: 300px;
+}
+
+.box-2 .boxlist li {
+
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--heading-font);
+    color: var(--heading-color);
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+}
+
+.box-2 .box2head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-family: var(--heading-font);
+}
+
+.box-2 .box2head i {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    background-color: var(--primary-color);
+    border-radius: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--white-color);
+    margin-right: 20px;
+}
+
+
+
 
 /* ================ Achive ============== */
 .achievement {
@@ -516,37 +573,4 @@ header {
     color: var(--white-color);
     line-height: 34px;
     font-family: var(--heading-font);
-}
-
-.about-box .box-2 {
-    align-items: center;
-    background-color: var(--gray-light-color);
-    padding: 30px 20px;
-    border-radius: 10px;
-    margin: 0px 0px 40px;
-    max-width: 300px;
-}
-
-.box-2 .boxlist li {
-
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.box-2 h4 {
-
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-.box-2 .boxlist .day {
-
-    font-size: 18px;
-    margin-bottom: 15px;
-}
-
-.box-2 .boxlist .time {
-
-    font-size: 18px;
 }
