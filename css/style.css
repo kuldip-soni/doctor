@@ -40,6 +40,11 @@ li {
     margin: 0 auto;
 }
 
+.container-fluid{
+    max-width: 100%;
+    padding: 0px 12px;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -575,6 +580,8 @@ header {
     font-family: var(--heading-font);
 }
 
+/*-----service-------*/
+
 .Services {
     padding: 130px 0px 80px;
 
@@ -583,19 +590,99 @@ header {
 .Service-head {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    margin-bottom: 50px;
 
 }
 
 .Service-head .Service-headtext {
     width: 50%;
+    
 
 }
 
 .Service-head .Service-headtext h2 {
     font-weight: 700;
-    font-size: 38px;
+    font-size: 48px;
     color: var(--heading-color);
     font-family: var(--heading-font);
 
 }
+
+.Service-head .Service-headbtn{
+    width: 50%;
+    text-align: right;
+}
+
+.Service-box{
+    padding: 30px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+}
+
+.Service-box .Service-boxicon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.Service-box .Service-boxicon .label{
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-family: var(--heading-font);
+    background-color: #F1F3FC;
+    color: var(--heading-color);
+}
+
+.Service-box .Service-boxicon i{
+    display: flex;
+    font-size: 35px;
+    height: 70px;
+    width: 70px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    color: transparent;
+    -webkit-text-stroke: 2px var(--white-color);
+}
+
+.Service-box .Service-boxtext .text{
+    font-family: var(--heading-font);
+    font-size: 24px;
+    color: var(--heading-color);
+    font-weight: 700;
+    line-height: 34px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.Service-box .Service-boxtext p{
+    font-size: 18px;
+    color: var(--text-color);
+    font-family: var(--body-font);
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.Service-box .Service-boxtext .readme{
+    font-size: 16px;
+    font-family: var(--body-font);
+    color: var(--text-color);
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+/*-----treatment---------*/
+.row .col-6:first-child{
+    padding-left: 0;
+}
+
+.treatimg img{
+    display: block;
+}
+
+
