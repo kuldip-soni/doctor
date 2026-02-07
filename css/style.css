@@ -574,3 +574,28 @@ header {
     line-height: 34px;
     font-family: var(--heading-font);
 }
+
+.Services {
+    padding: 130px 0px 80px;
+
+}
+
+.Service-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Service-head .Service-headtext {
+    width: 50%;
+
+}
+
+.Service-head .Service-headtext h2 {
+    font-weight: 700;
+    font-size: 38px;
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+
+}
