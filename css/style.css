@@ -40,7 +40,7 @@ li {
     margin: 0 auto;
 }
 
-.container-fluid{
+.container-fluid {
     max-width: 100%;
     padding: 0px 12px;
 }
@@ -596,7 +596,7 @@ header {
 
 .Service-head .Service-headtext {
     width: 50%;
-    
+
 
 }
 
@@ -608,25 +608,25 @@ header {
 
 }
 
-.Service-head .Service-headbtn{
+.Service-head .Service-headbtn {
     width: 50%;
     text-align: right;
 }
 
-.Service-box{
+.Service-box {
     padding: 30px;
     border: 1px solid var(--border-color);
     border-radius: 10px;
 }
 
-.Service-box .Service-boxicon{
+.Service-box .Service-boxicon {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 25px;
 }
 
-.Service-box .Service-boxicon .label{
+.Service-box .Service-boxicon .label {
     padding: 12px 24px;
     border-radius: 30px;
     font-weight: 500;
@@ -635,7 +635,7 @@ header {
     color: var(--heading-color);
 }
 
-.Service-box .Service-boxicon i{
+.Service-box .Service-boxicon i {
     display: flex;
     font-size: 35px;
     height: 70px;
@@ -648,7 +648,7 @@ header {
     -webkit-text-stroke: 2px var(--white-color);
 }
 
-.Service-box .Service-boxtext .text{
+.Service-box .Service-boxtext .text {
     font-family: var(--heading-font);
     font-size: 24px;
     color: var(--heading-color);
@@ -658,7 +658,7 @@ header {
     margin-bottom: 15px;
 }
 
-.Service-box .Service-boxtext p{
+.Service-box .Service-boxtext p {
     font-size: 18px;
     color: var(--text-color);
     font-family: var(--body-font);
@@ -667,7 +667,7 @@ header {
     margin-bottom: 25px;
 }
 
-.Service-box .Service-boxtext .readme{
+.Service-box .Service-boxtext .readme {
     font-size: 16px;
     font-family: var(--body-font);
     color: var(--text-color);
@@ -677,12 +677,115 @@ header {
 }
 
 /*-----treatment---------*/
-.row .col-6:first-child{
+.treatment {
+    background-color: var(--gray-light-color);
+}
+
+.row .col-6:first-child {
     padding-left: 0;
 }
 
-.treatimg img{
+.row .col-6:last-child {
+    padding: 130px 0 110px 0;
+}
+
+.treatimg {
+    height: 100%;
+}
+
+.treatimg img {
+    height: 100%;
     display: block;
+    object-fit: cover;
+}
+
+.tratdata {
+    max-width: 635px;
+    padding-left: 80px;
+}
+
+.tratdata .tratheader h2 {
+    margin-bottom: 45px;
+    font-family: var(--heading-font);
+    font-size: 38px;
+}
+
+.tratdata .tratheader p {
+    margin-bottom: 30px;
+    font-family: var(--body-font);
+    color: var(--text-color);
+}
+
+/* =================== process ================== */
+.working-process {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.working-process .heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.working-process .process {
+    padding: 30px 30px 50px;
+    color: var(--text-color);
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    position: relative;
+}
+
+.process .process-icon {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 25px;
+}
+
+.process .process-icon i {
+    font-size: 36px;
+    color: transparent;
+    -webkit-text-stroke: 1.5px var(--white-color);
+}
+
+.process h3 {
+    font-size: 24px;
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+    margin-bottom: 20px;
+    line-height: 34px;
+}
+
+.process p {
+    line-height: 30px;
+}
+
+.process .process-count {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-color);
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    transform: translateX(-50%);
 }
 
 
+
+
+
+.tratdata .about-cta {
+    display: flex;
+    align-items: center;
+}
