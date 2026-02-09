@@ -781,11 +781,61 @@ header {
     transform: translateX(-50%);
 }
 
-
-
-
-
 .tratdata .about-cta {
     display: flex;
     align-items: center;
+}
+
+/* ============= Choose ============== */
+.choose{
+    padding: 115px 0 90px;
+}
+.choose-img{
+    padding-left: 80px;
+    margin-bottom: 70px;
+    position: relative;
+}
+.choose-img img{
+    border-radius: 10px;
+}
+.choose-img .play-btn{
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%,-50%);
+}
+.choose-img .play-btn i{
+    font-size: 22px;
+    color: var(--white-color);
+}
+.choose .process{
+    padding: 30px 30px 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #E7E0FF;
+}
+.choose .process-2{background-color: #FFD0CC;}
+.choose .process-3{background-color: #FFEBC2;}
+.choose .process-4{background-color: #D1F4C3;}
+
+.choose .process .process-icon{
+    background-color: transparent;
+    border: 1px solid rgba(5, 27, 46, 0.2);
+}
+.choose .process .process-icon i{
+    -webkit-text-stroke-color: var(--text-color);
+}
+.choose .process h3{
+    margin-bottom: 10px;
+}
+.choose .process p{
+    font-size: 18px;
 }
