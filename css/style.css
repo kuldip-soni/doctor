@@ -718,7 +718,7 @@ header {
     line-height: 30px;
 }
 
-.treatment .about-cta .btn{
+.treatment .about-cta .btn {
     padding: 15px 44px;
 }
 
@@ -846,7 +846,7 @@ header {
     background-color: #D1F4C3;
 }
 
-.choose .heading h2{
+.choose .heading h2 {
     margin-bottom: 20px;
 }
 
@@ -920,15 +920,15 @@ header {
 }
 
 /* ================== Team =================== */
-.team{
+.team {
     padding: 130px 0 85px;
 }
 
-.team .heading{
+.team .heading {
     text-align: center;
 }
 
-.team .heading h2{
+.team .heading h2 {
     font-size: 48px;
     line-height: 65px;
     max-width: 700px;
@@ -966,37 +966,59 @@ header {
     margin-bottom: 12px;
 }
 
-.doctorimg:hover .link {
+.team .col-3:hover .link {
     bottom: 0;
+}
+
+.team .about-cta {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.team .about-cta a {
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.team .about-cta p {
+    font-size: 16px;
+    font-family: var(--body-font);
+    font-weight: 400;
+    line-height: 28px;
 }
 
 
 
 /* ================== Testimonial =================== */
-.testimonial{
+.testimonial {
     padding: 130px 0 80px;
     background-color: var(--gray-light-color);
 }
-.testimonial .test-image{
+
+.testimonial .test-image {
     padding-left: 85px;
 }
-.testimonial .test-image img{
+
+.testimonial .test-image img {
     border-radius: 10px;
 }
 
-.testimonial .test-slide{
+.testimonial .test-slide {
     background-color: var(--white-color);
     padding: 25px 30px;
 }
-.test-slide .rating{
+
+.test-slide .rating {
     display: flex;
     margin-bottom: 20px;
 }
-.test-slide .rating i{
+
+.test-slide .rating i {
     color: var(--primary-color);
     margin: 0 2px;
 }
-.test-slide .test-data{
+
+.test-slide .test-data {
     font-size: 24px;
     line-height: 34px;
     color: var(--heading-color);
@@ -1005,10 +1027,12 @@ header {
     font-style: italic;
     margin-bottom: 30px;
 }
-.test-slide .person{
+
+.test-slide .person {
     padding-top: 30px;
     border-top: 1px solid var(--border-color);
 }
-.test-slide .person .call-us{
+
+.test-slide .person .call-us {
     margin-left: 0;
 }
