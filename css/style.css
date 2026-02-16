@@ -805,6 +805,7 @@ header {
 
 .choose-img img {
     border-radius: 10px;
+    width: 100%;
 }
 
 .choose-img .play-btn {
@@ -1037,6 +1038,87 @@ header {
     margin-left: 0;
 }
 
+/* ============ FAQ ============== */
+.faq{
+    padding: 130px 0 130px;
+}
+.faq .faq-image{
+    margin-bottom: 30px;
+}
+.faq-image img{
+    border-radius: 10px;
+}
+.faq .sos-call{
+    background-color: var(--gray-light-color);
+    padding: 30px;
+    border-radius: 10px;
+}
+.sos-call .call-text a{
+    font-size: 24px;
+    line-height: 34px;
+}
+.sos-call .call-icon{
+    height: 60px;
+    width: 60px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sos-call .call-icon i{
+    font-size: 24px;
+    color: transparent;
+    -webkit-text-stroke: 1.5px var(--white-color);
+}
+.faq .faq-content{
+    padding-left: 70px;
+}
+.faq .faq-content .heading{
+    margin-bottom: 50px;
+}
+.faq-accordion .question{
+    padding: 15px 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+    height: 55px;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+.faq-accordion .question.open{
+    height: initial;
+    transition: all 0.4s;
+}
+.faq-accordion .question.open .acc-header i{
+    transform: rotate(180deg);
+}
+.question .acc-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.4s;
+}
+.question .acc-header:hover{
+    cursor: pointer;
+}
+.question .acc-header h4{
+    font-size: 18px;
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+    line-height: 25px;
+}
+.question .acc-header i{
+    font-size: 18px;
+    color: var(--primary-color);
+}
+.question .acc-body p{
+    font-size: 18px;
+    color: var(--text-color);
+    line-height: 30px;
+    padding-top: 20px;
+}
+
 /*========== footer ==========*/
 footer {
     background-image: url(../images/footer-bg.jpg);
@@ -1165,4 +1247,423 @@ footer .btn {
 .add .add-txt p {
     padding: 0px;
     color: var(--white-color);
+}
+
+
+
+
+
+/*=============== responsive CSS==============*/
+/* 0-575 none */
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .col-1 {
+        width: 8.33%;
+        padding: 0 12px;
+    }
+
+    .col-2 {
+        width: 16.66%;
+        padding: 0 12px;
+    }
+
+    .col-3 {
+        width: 25%;
+        padding: 0 12px;
+    }
+
+    .col-4 {
+        width: 33.33%;
+        padding: 0 12px;
+    }
+
+    .col-5 {
+        width: 41.66%;
+        padding: 0 12px;
+    }
+
+    .col-6 {
+        width: 50%;
+        padding: 0 12px;
+    }
+
+    .col-7 {
+        width: 58.33%;
+        padding: 0 12px;
+    }
+
+    .col-8 {
+        width: 66.66%;
+        padding: 0 12px;
+    }
+
+    .col-9 {
+        width: 75%;
+        padding: 0 12px;
+    }
+
+    .col-10 {
+        width: 83.33%;
+        padding: 0 12px;
+    }
+
+    .col-11 {
+        width: 91.66%;
+        padding: 0 12px;
+    }
+
+    .col-12 {
+        width: 100%;
+        padding: 0 12px;
+    }
+
+}
+
+/* 576-767 sm */
+@media screen and (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .col-sm-1 {
+        width: 8.33%;
+        padding: 0 12px;
+    }
+
+    .col-sm-2 {
+        width: 16.66%;
+        padding: 0 12px;
+    }
+
+    .col-sm-3 {
+        width: 25%;
+        padding: 0 12px;
+    }
+
+    .col-sm-4 {
+        width: 33.33%;
+        padding: 0 12px;
+    }
+
+    .col-sm-5 {
+        width: 41.66%;
+        padding: 0 12px;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+        padding: 0 12px;
+    }
+
+    .col-sm-7 {
+        width: 58.33%;
+        padding: 0 12px;
+    }
+
+    .col-sm-8 {
+        width: 66.66%;
+        padding: 0 12px;
+    }
+
+    .col-sm-9 {
+        width: 75%;
+        padding: 0 12px;
+    }
+
+    .col-sm-10 {
+        width: 83.33%;
+        padding: 0 12px;
+    }
+
+    .col-sm-11 {
+        width: 91.66%;
+        padding: 0 12px;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+        padding: 0 12px;
+    }
+
+
+}
+
+/* 768-991 md */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .col-md-1 {
+        width: 8.33%;
+        padding: 0 12px;
+    }
+
+    .col-md-2 {
+        width: 16.66%;
+        padding: 0 12px;
+    }
+
+    .col-md-3 {
+        width: 25%;
+        padding: 0 12px;
+    }
+
+    .col-md-4 {
+        width: 33.33%;
+        padding: 0 12px;
+    }
+
+    .col-md-5 {
+        width: 41.66%;
+        padding: 0 12px;
+    }
+
+    .col-md-6 {
+        width: 50%;
+        padding: 0 12px;
+    }
+
+    .col-md-7 {
+        width: 58.33%;
+        padding: 0 12px;
+    }
+
+    .col-md-8 {
+        width: 66.66%;
+        padding: 0 12px;
+    }
+
+    .col-md-9 {
+        width: 75%;
+        padding: 0 12px;
+    }
+
+    .col-md-10 {
+        width: 83.33%;
+        padding: 0 12px;
+    }
+
+    .col-md-11 {
+        width: 91.66%;
+        padding: 0 12px;
+    }
+
+    .col-md-12 {
+        width: 100%;
+        padding: 0 12px;
+    }
+
+
+}
+
+/* 992-1199 lg */
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .col-lg-1 {
+        width: 8.33%;
+        padding: 0 12px;
+    }
+
+    .col-lg-2 {
+        width: 16.66%;
+        padding: 0 12px;
+    }
+
+    .col-lg-3 {
+        width: 25%;
+        padding: 0 12px;
+    }
+
+    .col-lg-4 {
+        width: 33.33%;
+        padding: 0 12px;
+    }
+
+    .col-lg-5 {
+        width: 41.66%;
+        padding: 0 12px;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+        padding: 0 12px;
+    }
+
+    .col-lg-7 {
+        width: 58.33%;
+        padding: 0 12px;
+    }
+
+    .col-lg-8 {
+        width: 66.66%;
+        padding: 0 12px;
+    }
+
+    .col-lg-9 {
+        width: 75%;
+        padding: 0 12px;
+    }
+
+    .col-lg-10 {
+        width: 83.33%;
+        padding: 0 12px;
+    }
+
+    .col-lg-11 {
+        width: 91.66%;
+        padding: 0 12px;
+    }
+
+    .col-lg-12 {
+        width: 100%;
+        padding: 0 12px;
+    }
+
+
+}
+
+/* 1200-1399 xl */
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+
+    .col-xl-1 {
+        width: 8.33%;
+        padding: 0 12px;
+    }
+
+    .col-xl-2 {
+        width: 16.66%;
+        padding: 0 12px;
+    }
+
+    .col-xl-3 {
+        width: 25%;
+        padding: 0 12px;
+    }
+
+    .col-xl-4 {
+        width: 33.33%;
+        padding: 0 12px;
+    }
+
+    .col-xl-5 {
+        width: 41.66%;
+        padding: 0 12px;
+    }
+
+    .col-xl-6 {
+        width: 50%;
+        padding: 0 12px;
+    }
+
+    .col-xl-7 {
+        width: 58.33%;
+        padding: 0 12px;
+    }
+
+    .col-xl-8 {
+        width: 66.66%;
+        padding: 0 12px;
+    }
+
+    .col-xl-9 {
+        width: 75%;
+        padding: 0 12px;
+    }
+
+    .col-xl-10 {
+        width: 83.33%;
+        padding: 0 12px;
+    }
+
+    .col-xl-11 {
+        width: 91.66%;
+        padding: 0 12px;
+    }
+
+    .col-xl-12 {
+        width: 100%;
+        padding: 0 12px;
+    }
+
+
+}
+
+/* 
+1400-any xxl */
+@media screen and (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+
+    .col-xxl-1 {
+        width: 8.33%;
+        padding: 0 12px;
+    }
+
+    .col-xxl-2 {
+        width: 16.66%;
+        padding: 0 12px;
+    }
+
+    .col-xxl-3 {
+        width: 25%;
+        padding: 0 12px;
+    }
+
+    .col-xxl-4 {
+        width: 33.33%;
+        padding: 0 12px;
+    }
+
+    .col-xxl-5 {
+        width: 41.66%;
+        padding: 0 12px;
+    }
+
+    .col-xxl-6 {
+        width: 50%;
+        padding: 0 12px;
+    }
+
+    .col-xxl-7 {
+        width: 58.33%;
+        padding: 0 12px;
+    }
+
+    .col-xxl-8 {
+        width: 66.66%;
+        padding: 0 12px;
+    }
+
+    .col-xxl-9 {
+        width: 75%;
+        padding: 0 12px;
+    }
+
+    .col-xxl-10 {
+        width: 83.33%;
+        padding: 0 12px;
+    }
+
+    .col-xxl-11 {
+        width: 91.66%;
+        padding: 0 12px;
+    }
+
+    .col-xxl-12 {
+        width: 100%;
+        padding: 0 12px;
+    }
+
+
 }
