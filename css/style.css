@@ -967,7 +967,7 @@ header {
     margin-bottom: 12px;
 }
 
-.team .col-3:hover .link {
+.team .colhov:hover .link {
     bottom: 0;
 }
 
@@ -1002,6 +1002,7 @@ header {
 
 .testimonial .test-image img {
     border-radius: 10px;
+    width: 100%;
 }
 
 .testimonial .test-slide {
