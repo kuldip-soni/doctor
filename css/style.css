@@ -34,6 +34,10 @@ li {
     list-style: none;
 }
 
+section {
+    padding-top: 120px;
+}
+
 .container {
     max-width: 1314px;
     padding: 0 12px;
@@ -250,7 +254,7 @@ header {
 /*================= hero section ========================*/
 .hero {
     background-color: var(--gray-light-color);
-    padding-top: 65px;
+
 }
 
 .hero-details {
@@ -312,12 +316,24 @@ header {
     position: relative;
     margin-left: 50px;
     display: block;
+    height: 100%;
 
 }
+
+.hero-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom center;
+}
+
+
 
 .tag1 {
     position: absolute;
     top: 15%;
+    right: 75%;
     border: 1px solid var(--border-color);
     padding: 12px 30px;
     color: var(--white-color);
@@ -332,7 +348,7 @@ header {
 .tag2 {
     position: absolute;
     top: 35%;
-    right: -45%;
+    right: 0%;
     border: 1px solid var(--border-color);
     padding: 12px 30px;
     color: var(--white-color);
@@ -349,7 +365,7 @@ header {
 
 
 .about {
-    padding: 120px 0 130px;
+    padding: 120px 0 120px;
 }
 
 .about-img {
@@ -582,10 +598,7 @@ header {
 
 /*-----service-------*/
 
-.Services {
-    padding: 130px 0px 80px;
-
-}
+.Services {}
 
 .Service-head {
     display: flex;
@@ -723,10 +736,7 @@ header {
 }
 
 /* =================== process ================== */
-.working-process {
-    padding-top: 130px;
-    padding-bottom: 130px;
-}
+.working-process {}
 
 .working-process .heading {
     text-align: center;
@@ -793,9 +803,7 @@ header {
 }
 
 /* ============= Choose ============== */
-.choose {
-    padding: 115px 0 90px;
-}
+.choose {}
 
 .choose-img {
     padding-left: 80px;
@@ -870,7 +878,7 @@ header {
 
 /* ================== Booking =================== */
 .booking {
-    padding: 130px 0 80px;
+
     background-color: var(--gray-light-color);
 }
 
@@ -921,9 +929,7 @@ header {
 }
 
 /* ================== Team =================== */
-.team {
-    padding: 130px 0 85px;
-}
+.team {}
 
 .team .heading {
     text-align: center;
@@ -992,7 +998,7 @@ header {
 
 /* ================== Testimonial =================== */
 .testimonial {
-    padding: 130px 0 80px;
+
     background-color: var(--gray-light-color);
 }
 
@@ -1040,25 +1046,31 @@ header {
 }
 
 /* ============ FAQ ============== */
-.faq{
-    padding: 130px 0 130px;
+.faq {
+
+    margin-bottom: 120px;
 }
-.faq .faq-image{
+
+.faq .faq-image {
     margin-bottom: 30px;
 }
-.faq-image img{
+
+.faq-image img {
     border-radius: 10px;
 }
-.faq .sos-call{
+
+.faq .sos-call {
     background-color: var(--gray-light-color);
     padding: 30px;
     border-radius: 10px;
 }
-.sos-call .call-text a{
+
+.sos-call .call-text a {
     font-size: 24px;
     line-height: 34px;
 }
-.sos-call .call-icon{
+
+.sos-call .call-icon {
     height: 60px;
     width: 60px;
     background-color: var(--primary-color);
@@ -1067,18 +1079,22 @@ header {
     justify-content: center;
     align-items: center;
 }
-.sos-call .call-icon i{
+
+.sos-call .call-icon i {
     font-size: 24px;
     color: transparent;
     -webkit-text-stroke: 1.5px var(--white-color);
 }
-.faq .faq-content{
+
+.faq .faq-content {
     padding-left: 70px;
 }
-.faq .faq-content .heading{
+
+.faq .faq-content .heading {
     margin-bottom: 50px;
 }
-.faq-accordion .question{
+
+.faq-accordion .question {
     padding: 15px 30px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -1087,33 +1103,40 @@ header {
     overflow: hidden;
     transition: all 0.4s;
 }
-.faq-accordion .question.open{
+
+.faq-accordion .question.open {
     height: initial;
     transition: all 0.4s;
 }
-.faq-accordion .question.open .acc-header i{
+
+.faq-accordion .question.open .acc-header i {
     transform: rotate(180deg);
 }
-.question .acc-header{
+
+.question .acc-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     transition: all 0.4s;
 }
-.question .acc-header:hover{
+
+.question .acc-header:hover {
     cursor: pointer;
 }
-.question .acc-header h4{
+
+.question .acc-header h4 {
     font-size: 18px;
     color: var(--heading-color);
     font-family: var(--heading-font);
     line-height: 25px;
 }
-.question .acc-header i{
+
+.question .acc-header i {
     font-size: 18px;
     color: var(--primary-color);
 }
-.question .acc-body p{
+
+.question .acc-body p {
     font-size: 18px;
     color: var(--text-color);
     line-height: 30px;
@@ -1164,6 +1187,7 @@ footer .finput {
 footer .btn {
     padding: 15px 44px;
     line-height: 18px;
+    margin-top: 20px;
 }
 
 .footer-top .btn:hover {
@@ -1321,6 +1345,7 @@ footer .btn {
         padding: 0 12px;
     }
 
+
 }
 
 /* 576-767 sm */
@@ -1458,6 +1483,11 @@ footer .btn {
         padding: 0 12px;
     }
 
+    .hero-details h1 {
+        font-size: 62px;
+        line-height: 70px;
+    }
+
 
 }
 
@@ -1525,6 +1555,11 @@ footer .btn {
     .col-lg-12 {
         width: 100%;
         padding: 0 12px;
+    }
+
+    .hero-details h1 {
+        font-size: 62px;
+        line-height: 70px;
     }
 
 
@@ -1596,11 +1631,23 @@ footer .btn {
         padding: 0 12px;
     }
 
+    footer .finput {
+        width: 270px;
+    }
+
+    footer .btn {
+        padding: 15px 25px;
+    }
+
+    .hero-details h1 {
+        font-size: 85px;
+        line-height: 100px;
+    }
+
 
 }
 
-/* 
-1400-any xxl */
+/* 1400-any xxl */
 @media screen and (min-width: 1400px) {
     .container {
         max-width: 1320px;
@@ -1665,6 +1712,18 @@ footer .btn {
         width: 100%;
         padding: 0 12px;
     }
+
+    footer .finput {
+        width: 300px;
+    }
+
+    footer .btn {
+        padding: 15px 44px;
+    }
+
+
+
+
 
 
 }
