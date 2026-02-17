@@ -598,8 +598,6 @@ header {
 
 /*-----service-------*/
 
-.Services {}
-
 .Service-head {
     display: flex;
     align-items: center;
@@ -736,7 +734,6 @@ header {
 }
 
 /* =================== process ================== */
-.working-process {}
 
 .working-process .heading {
     text-align: center;
@@ -803,7 +800,6 @@ header {
 }
 
 /* ============= Choose ============== */
-.choose {}
 
 .choose-img {
     padding-left: 80px;
@@ -929,7 +925,6 @@ header {
 }
 
 /* ================== Team =================== */
-.team {}
 
 .team .heading {
     text-align: center;
@@ -1345,6 +1340,15 @@ footer .btn {
         padding: 0 12px;
     }
 
+    .hero-details h1 {
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .hero-cta {
+        flex-direction: column;
+    }
+
 
 }
 
@@ -1414,6 +1418,14 @@ footer .btn {
         padding: 0 12px;
     }
 
+    .hero-details h1 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+
+    .achiev {
+        padding: 20px;
+    }
 
 }
 
@@ -1488,6 +1500,10 @@ footer .btn {
         line-height: 70px;
     }
 
+    .achiev {
+        padding: 0 0 50px;
+    }
+
 
 }
 
@@ -1560,6 +1576,10 @@ footer .btn {
     .hero-details h1 {
         font-size: 62px;
         line-height: 70px;
+    }
+
+    .achiev {
+        padding: 0 12px 0 50px;
     }
 
 
@@ -1644,6 +1664,10 @@ footer .btn {
         line-height: 100px;
     }
 
+    .about-box .box-2 {
+        right: 25px;
+    }
+
 
 }
 
@@ -1719,6 +1743,10 @@ footer .btn {
 
     footer .btn {
         padding: 15px 44px;
+    }
+
+    .about-box .box-2 {
+        right: 80px;
     }
 
 
